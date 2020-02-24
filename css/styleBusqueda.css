@@ -1,0 +1,71 @@
+@import "https://use.fontawesome.com/releases/v5.5.0/css/all.css";
+body{
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI";
+  background: url(bgBusqueda.jpg) no-repeat;
+  background-size: cover;
+
+}
+.fondo{
+  background-color: rgba(0, 0, 0, 0.6);
+  width: 500px;
+  height: 455px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  color: white;
+}
+
+.cajaBusqueda{
+  width: 240px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  color: white;
+}
+.cajaBusqueda h1{
+  float: center;
+  font-size: 33px;
+  padding: 20px 0;
+}
+.textbox{
+  width: 100%;
+  overflow: hidden;
+  font-size: 16px;
+  padding: 8px 0;
+  margin: 8px 0;
+  border-bottom: 1px solid #FFF;
+}
+.textbox i{
+  width: 26px;
+  float: left;
+  text-align: center;
+}
+.textbox input{
+  border: none;
+  outline: none;
+  background: none;
+  color: white;
+  font-size: 15px;
+  width: 80%;
+  float: left;
+  margin: 0 10px;
+}
+.btn{
+  width: 100%;
+  background-color: #FFF;
+  border: 2px solid #FFF;
+  color: black;
+  padding: 5px;
+  font-size: 15px;
+  cursor: pointer;
+  margin: 12px 0;
+}
+
+.info{
+  float: center;
+  font-size: 11px;
+}
